@@ -1,0 +1,57 @@
+.twubric table tr th {
+  background-color: #95a5a6;
+  font-size: 17px;
+  color: #fff;
+  padding: 10px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+table {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.twubric table tbody tr td {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.twubric table tbody tr td .delete_btn {
+  background-color: #ff5252;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.twubric table tbody tr td .delete_btn:active {
+  background-color: #ff5252;
+}
+.twubric table tbody tr td img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.twubric .filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twubric .filter .form-select,
+.twubric .filter .input-group {
+  max-width: 300px;
+  width: 100%;
+  min-height: 40px;
+}
+
+.twubric .filter .input-group input {
+  font-size: 18px;
+}
+
+.twubric .filter .input-group input:focus {
+  box-shadow: none;
+}
